@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gwt</groupId>
-    <artifactId>lab_2</artifactId>
+    <artifactId>lab_4</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -99,7 +99,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                    <warName>lab_2</warName>
+                    <warName>lab_4</warName>
                 </configuration>
                 <version>2.3</version>
             </plugin>
