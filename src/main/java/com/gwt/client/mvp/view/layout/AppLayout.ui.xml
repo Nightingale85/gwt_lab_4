@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:gwt="urn:import:com.google.gwt.user.client.ui">
+	<ui:with type="com.gwt.client.i18n.Message" field="i18n"/>
+
+	<gwt:DockLayoutPanel unit="PX">
+		<gwt:east size="200">
+			<gwt:HTMLPanel styleName="links">
+				<gwt:Anchor ui:field="login" href="#login:" text="{i18n.login}" styleName="log-out"/>
+				<gwt:Anchor ui:field="greeting" href="#greeting:" text="{i18n.greeting}" styleName="log-out"/>
+			</gwt:HTMLPanel>
+		</gwt:east>
+		<gwt:center>
+			<gwt:SimplePanel ui:field="appContent" />
+		</gwt:center>
+	</gwt:DockLayoutPanel>
+</ui:UiBinder>
+ 
