@@ -1,4 +1,4 @@
-header {
+.header {
     color:white;
     text-align:left;
     padding:5px;
@@ -7,7 +7,7 @@ header {
     min-height: 60px;
 }
 
-footer {
+.footer {
     color:#db9739;
     clear:both;
     text-align:center;
@@ -66,6 +66,15 @@ input{
     color: beige;
     font:40px Verdana;
 }
+
 .links {
+    float: right;
+    font:20px Verdana;
+    padding-top:40px;
+}
+
+.link {
+    color: beige;
     padding-top:50px;
+    text-decoration: none;
 }

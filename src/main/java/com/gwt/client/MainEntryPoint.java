@@ -28,6 +28,7 @@ public class MainEntryPoint implements EntryPoint {
 	@Override
 	public void onModuleLoad() {
 		final AppLayout mainLayout = new AppLayout();
+
 		containerWidget = mainLayout.getAppContentHolder();
 		final Injector injector = Injector.INSTANCE;
 		EventBus eventBus = injector.getEventBus();

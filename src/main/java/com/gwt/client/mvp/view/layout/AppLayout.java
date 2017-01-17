@@ -24,7 +24,7 @@ public class AppLayout extends Composite {
 		this.i18n = GWT.create(Message.class);
 		initWidget(uiBinder.createAndBindUi(this));
 	}
-	
+
 	public SimplePanel getAppContentHolder() {
 		return this.appContent;
 	}

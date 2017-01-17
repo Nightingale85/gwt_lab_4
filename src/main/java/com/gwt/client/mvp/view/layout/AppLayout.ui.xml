@@ -3,16 +3,23 @@
 	xmlns:gwt="urn:import:com.google.gwt.user.client.ui">
 	<ui:with type="com.gwt.client.i18n.Message" field="i18n"/>
 
-	<gwt:DockLayoutPanel unit="PX">
-		<gwt:east size="200">
-			<gwt:HTMLPanel styleName="links">
-				<gwt:Anchor ui:field="login" href="#login:" text="{i18n.login}" styleName="log-out"/>
-				<gwt:Anchor ui:field="greeting" href="#greeting:" text="{i18n.greeting}" styleName="log-out"/>
+	<gwt:DockLayoutPanel ui:field="dockLayoutPanel" unit="PX">
+		<gwt:north size='80'>
+			<gwt:HTMLPanel styleName="header">
+				<gwt:Image url="static/img/logo.png" width="150px"/>
+				<div class="links">
+				<gwt:Anchor ui:field="login" href="#login:" text="{i18n.login}" styleName="link"/>
+				<gwt:Anchor ui:field="greeting" href="#greeting:" text="{i18n.greeting}" styleName="link"/>
+			</div>
 			</gwt:HTMLPanel>
-		</gwt:east>
+		</gwt:north>
 		<gwt:center>
 			<gwt:SimplePanel ui:field="appContent" />
 		</gwt:center>
+		<gwt:south size='50'>
+			<gwt:HTMLPanel styleName="footer">
+				<gwt:Label>junior production 2017</gwt:Label>
+			</gwt:HTMLPanel>
+		</gwt:south>
 	</gwt:DockLayoutPanel>
 </ui:UiBinder>
- 
