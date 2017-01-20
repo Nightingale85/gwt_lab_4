@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/Nightingale85/gwt_lab_4.svg?branch=master)](https://travis-ci.org/Nightingale85/gwt_lab_4)
